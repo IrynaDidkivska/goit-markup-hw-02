@@ -72,6 +72,9 @@ body {
 .nav-link:focus {
   color: var(--hover-focus-link);
 }
+.address {
+  font-style: normal;
+}
 .address-link {
   font-style: normal;
 
@@ -135,9 +138,7 @@ body {
   color: var(--secondary-text);
 }
 /* Team */
-.team {
-  background-color: var(--footer-text);
-}
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -147,7 +148,9 @@ body {
 
   color: var(--secondary-text);
 }
-
+.team-item {
+  background-color: var(--footer-text);
+}
 /* Portfolio */
 /* Filter */
 .btn {
@@ -164,10 +167,16 @@ body {
   color: var(--white-color);
   background-color: var(--primary-btn-bcg);
 }
+.filter-btn-primary:hover,
+.filter-btn-primary:focus {
+  color: var(--white-color);
+  background-color: var(--hover-focus-link);
+}
 .filter-btn {
   color: var(--accent-colour);
   background-color: var(--footer-text);
 }
+
 /* Portfolio */
 .portfolio-subtitle {
   color: var(--secondary-text);

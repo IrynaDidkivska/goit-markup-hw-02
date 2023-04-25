@@ -17,6 +17,7 @@
   --secondary-text: #2e2f42;
   --accent-colour: #4d5ae5;
   --link: #434455;
+  --hover-focus-link: #404bbf;
   --footer-text: #f4f4fd;
   --white-color: #ffffff;
   --primary-btn-bcg: #404bbf;
@@ -29,17 +30,21 @@ body {
   line-height: var(--main-line-height);
   letter-spacing: var(--main-letter-spacing);
   color: var(--body-text);
+  background-color: var(--white-color);
 }
-ul {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text);
 }
 /* Header */
 /* Logo */
@@ -47,14 +52,14 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--secondary-text);
-}
-.accent-logo {
   color: var(--accent-colour);
+}
+.header-logo {
+  color: var(--secondary-text);
 }
 
 /* Nav */
@@ -65,7 +70,7 @@ a {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--accent-colour);
+  color: var(--hover-focus-link);
 }
 .address-link {
   font-style: normal;
@@ -75,7 +80,7 @@ a {
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-colour);
+  color: var(--hover-focus-link);
 }
 
 /* Footer */
@@ -96,6 +101,7 @@ a {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 
   color: var(--white-color);
@@ -110,6 +116,10 @@ a {
 
   cursor: pointer;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-focus-link);
+}
 /* Feature */
 .features-subtitle {
   color: var(--secondary-text);
@@ -119,6 +129,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 
   color: var(--secondary-text);
@@ -131,6 +142,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 
   color: var(--secondary-text);

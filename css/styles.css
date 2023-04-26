@@ -165,18 +165,14 @@ body {
 
   cursor: pointer;
 }
-.filter-btn-primary {
-  color: var(--white-color);
-  background-color: var(--primary-btn-bcg);
+.filter-btn {
+  color: var(--accent-colour);
+  background-color: var(--footer-text);
 }
 .filter-btn-primary:hover,
 .filter-btn-primary:focus {
   color: var(--white-color);
   background-color: var(--hover-focus-link);
-}
-.filter-btn {
-  color: var(--accent-colour);
-  background-color: var(--footer-text);
 }
 
 /* Portfolio */

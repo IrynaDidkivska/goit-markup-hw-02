@@ -138,7 +138,9 @@ body {
   color: var(--secondary-text);
 }
 /* Team */
-
+.team {
+  background-color: var(--footer-text);
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -149,7 +151,7 @@ body {
   color: var(--secondary-text);
 }
 .team-item {
-  background-color: var(--footer-text);
+  background-color: var(--white-color);
 }
 /* Portfolio */
 /* Filter */

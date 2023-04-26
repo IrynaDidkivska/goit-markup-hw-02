@@ -169,8 +169,8 @@ body {
   color: var(--accent-colour);
   background-color: var(--footer-text);
 }
-.filter-btn-primary:hover,
-.filter-btn-primary:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--white-color);
   background-color: var(--hover-focus-link);
 }
